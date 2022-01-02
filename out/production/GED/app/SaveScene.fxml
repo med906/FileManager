@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="150.0" maxWidth="400.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.SaveScene">
+   <children>
+      <AnchorPane prefHeight="50.0" prefWidth="200.0">
+         <children>
+            <Label text="File Name" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fileName" maxWidth="280.0" prefWidth="280.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="110.0" AnchorPane.topAnchor="5.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="50.0" prefWidth="200.0">
+         <children>
+            <Label text="File Type" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="fileType" maxWidth="280.0" prefWidth="280.0" promptText="Text File (.txt)" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="110.0" AnchorPane.topAnchor="5.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="50.0" prefWidth="400.0">
+         <children>
+            <Button fx:id="saveFileBtn" layoutX="294.0" layoutY="5.0" mnemonicParsing="false" onAction="#saveFile" prefHeight="44.0" prefWidth="96.0" text="Save" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="294.0" AnchorPane.topAnchor="5.0">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelBtn" layoutX="189.0" layoutY="5.0" mnemonicParsing="false" onAction="#closeWindow" text="Cancel" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="189.0" AnchorPane.topAnchor="5.0">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
