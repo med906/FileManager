@@ -17,8 +17,4 @@
 </br>
 <p align="center" ><img src="https://raw.githubusercontent.com/med906/FileManager/master/Github%20Images/CreateView.png"></img></p>
 </br>
-<p align="center" ><img src="https://raw.githubusercontent.com/med906/FileManager/master/Github%20Images/SearchView.png"></img></p>
-</br>
-<p align="center" ><img src="https://raw.githubusercontent.com/med906/FileManager/master/Github%20Images/SearchViewON.png"></img></p>
-</br>
 <p align="center" ><img src="https://raw.githubusercontent.com/med906/FileManager/master/Github%20Images/allFiles.png"></img></p>
